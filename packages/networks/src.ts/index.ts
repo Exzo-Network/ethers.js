@@ -126,6 +126,18 @@ const ropsten: Network = {
     _defaultProvider: ethDefaultProvider("ropsten")
 };
 
+const ropsten: Network = {
+    chainId: 1229,
+    name: "exzonetwork",
+    _defaultProvider: ethDefaultProvider("exzonetwork")
+};
+
+const ropsten: Network = {
+    chainId: 2370,
+    name: "exzotestnet",
+    _defaultProvider: ethDefaultProvider("exzotestnet")
+};
+
 const classicMordor: Network = {
     chainId: 63,
     name: "classicMordor",
